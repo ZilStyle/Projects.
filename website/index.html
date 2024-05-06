@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" 
+        href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" 
+        integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" 
+        crossorigin="anonymous"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        
+        <!--this container contains the buttons linking to advanced search and image search -->
+        <div class = "links">
+            <div class="button"><a href="advanced_search.html">Advanced Search</a></div>
+            <div class="button"><a href="image.html">Image Search</a></div>
+        </div>
+
+        <!--this container contains the google search form-->
+        <div class = "form_container">
+            
+            <h1><img src="images/home.png" alt="logo" /></h1> <!--google logo image-->
+
+            <!--this part below is the form itself and its contents-->
+            <form class="pure-form" action="https://www.google.com/search">
+                
+                <input type="text" name="q" class="pure-input-rounded" value=""> <!--input text field-->
+                <i class="fa fa-search" aria-hidden="true"></i>                  <!--search image icon-->
+                
+                <div class="submits">
+                    <input type="submit" value="Google Search" name="q">             <!--google search submit-->
+                    <input type="submit" value="I am Feeling Lucky" name="btnI">     <!--i am feeling lucky submit-->
+                </div>
+               
+
+            </form>
+        </div>
+
+    </body>
+
+</html>
